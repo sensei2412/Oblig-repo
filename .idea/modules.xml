@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Oblig-repo.iml" filepath="$PROJECT_DIR$/.idea/Oblig-repo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oblig-repo/oblig-repo.iml" filepath="$PROJECT_DIR$/oblig-repo/oblig-repo.iml" />
     </modules>
   </component>
 </project>
