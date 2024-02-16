@@ -22,7 +22,7 @@ kinobiletter.addEventListener("change", function () {
     }
 })
 
-// samme her for click istedet
+// samme her for click istedet.
 //if setning for å skjekke om det er tomt input felt
 knapp.addEventListener("click", function (){
     if(kinobiletter.value == "") {
