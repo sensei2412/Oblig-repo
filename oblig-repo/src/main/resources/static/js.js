@@ -103,8 +103,8 @@ knapp.addEventListener("click", function (){
         //bruker push komando for å dytte inn input verdiene
         if(antall.value != "" && fornavn.value != "" && etternavn.value != "" && telfon.value != "" && epost.value != "" && funker == true) {
             array.push(etternavn.value);
-            array.push(antall.value);
             array.push(fornavn.value);
+            array.push(antall.value);
             array.push(telfon.value);
             array.push(epost.value);
             slett.innerHTML = array;
@@ -129,35 +129,6 @@ function validateTelefon(telefon) {
 function validateEpost(epost) {
     return epostPattern.test(epost);
 }
-
-/*
-// Bruk av valideringsfunksjoner:
-knapp.addEventListener("click", function () {
-    // Validere telefonnummer
-    if (!validateTelefon(telfon.value)) {
-        console.log('ugyldig telefonnummer');
-        telefonRes.innerHTML = "Ugyldig telefonnummer";
-        telefonRes.style.color = "red";
-        funker = false;
-    } else {
-        console.log('gyldig telefonnummer');
-        telefonRes.innerHTML = "";
-    }
-
-    // Validere e-postadresse
-    if (!validateEpost(epost.value)) {
-        console.log('ugyldig e-postadresse');
-        epostRes.innerHTML = "Ugyldig e-postadresse";
-        epostRes.style.color = "red";
-        funker = false;
-    } else {
-        console.log('gyldig e-postadresse');
-        epostRes.innerHTML = "";
-    }
-*/
-    // Fortsett med resten av valideringen og behandlingen av dataene...
-//})
-
 
 //bare endrer array til en tom en
 slettKnapp.addEventListener("click", function () {
